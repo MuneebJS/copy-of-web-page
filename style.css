@@ -4,17 +4,30 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+  
+}
+#top {
+    height: 150px;
+    width: 100%;
 }
 #header {
-    max-width: 1024px;
-    min-width: 700px;
+    width: 100%;   
     height: 100px;
     background-color: #1F9FBA;
     margin-top: -15px;
     padding: 0;
 }
 .logo {
-    margin: 20px;    
+    margin: 29px;    
+}
+#header ul {
+    position: relative;
+    top: -137px;
+    left: 300px;
+    width: 760px;
+}
+li.home {
+    margin-left: 5px;
 }
 #header li {
     list-style: none;
@@ -26,22 +39,25 @@ body {
     color: #ffffff;
     font-family: "Myriad Pro";
     text-transform: uppercase;
-    width: 80px;
-    height: 35px;
+    width: 100px;
+    height: 55px;
 }
-li>a {
+li a {
     text-decoration: none;
-}
-li>a:link {
-    color: #ffffff;
-}
-li>a:visited {
-    color: #ffffff;
-}
-#header ul {
+    padding-top: 20px;
     position: relative;
-    top: -130px;
-    left: 300px;
+    top: 15px;
+}
+li a:link {
+    color: #ffffff;
+}
+li a:visited {
+    color: #ffffff;
+}
+li a:hover {
+    color: #8c5d96;
+    font-family: fantasy;
+    height: 85px;
 }
 .home a {
     padding-left: 20px;
@@ -53,3 +69,35 @@ li>a:visited {
     padding-right: 5px;
 }
 /*header has been completed*/
+
+#body img {
+    width: 1069px;
+    height: 500px;
+    margin: -120px 0 0 29px;   
+}
+div.para {
+    background-color: #E1E1E1;
+    width: 1050px;
+    margin:2px 29px;  
+    padding: 10px;  
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-family: "Myriad Pro";  
+}
+.para>h1 {
+    padding: 15px;
+    text-transform: uppercase;
+    color: #FFA246;
+}
+.section {
+    width: 1050px;
+    margin:2px 29px;
+}
+.first, .second, .third {
+    float: left;
+    margin: 10px;
+    width: 325px;
+}
+.section h1 {
+    font-size: 40px;
+}
